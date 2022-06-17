@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400&family=Nunito:wght@200;500&family=Oswald:wght@200;400&family=Roboto&display=swap');
+
+html{
+    background-image: url(/assets/bg-intro-desktop.png);
+    padding:0px;
+}
+
+body{
+  background: linear-gradient(90deg, rgb(232, 93, 167) 0%, rgba(217,190,66,1) 35%, rgb(253, 192, 117) 100%);
+  font-family: 'Nunito', sans-serif;
+  opacity: 0.75;
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
+}
+
+.container{
+    width: 90%;
+    margin:auto;
+    padding: 2%;
+    border-radius: 8px;
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    height: auto;
+}
+
+h1{
+  margin: auto;
+  width: 60%;
+  color: white;
+  padding: 10px;
+  font-size: 4em;
+}
+
+#description{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    color: white;
+}
+
+.title-header {
+    margin: auto;
+    width: 51%;
+    background-color: #0067ff;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 0px;
+    border-radius: 8px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+#title-header-text{
+    margin-left: 9%;
+}
+
+.form-registration {
+    display:flex;
+    width: 50%;
+    flex-direction: column;
+
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.form-input {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    margin-top: 18px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: rgb(160, 159, 160);
+}
+
+button {
+    background-color:rgb(2, 180, 108);
+    margin: auto;
+    width: 85%;
+    border-style: none;
+    color: white;
+    margin-bottom: 18px;
+    margin-top: 18px;
+    padding: 14px;
+    border-radius: 3px;
+}
+
+.ts-info{
+    width: 80%;
+    margin: auto;
+    width: 85%;
+    font-size: 12px;
+    color: grey;
+}
+
+#t-s {
+    color: rgb(173, 14, 14);
+}
+
+
+@media screen and (max-width: 600px) {
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    html{
+        background-image: url(assets/bg-intro-mobile.png);
+        padding:0px;
+    }
+
+    .container{
+        margin-right: 0px;
+        margin-left: 0px;
+        border-radius: 8px;
+        display: grid;
+    }
+    
+    .column {
+        height: auto;
+        margin: 0px;
+    }
+    
+    h1{
+      width: 100%;
+      color: white;
+      font-size: 2em;
+    }
+    
+    #description{
+        margin: auto;
+        width: 100%;
+        padding: 10px;
+        color: white;
+    }
+    
+    .title-header {
+        width: 100%;
+        background-color: #0067ff;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        border-radius: 8px;
+        color: white;
+        letter-spacing: 1px;
+    }
+    
+    #title-header-text{
+        width: 100%;
+        margin-left: 1%;
+    }
+    
+    .form-registration {
+        display:flex;
+        width: 97%;
+        flex-direction: column;
+    
+        background-color: white;
+        border-radius: 8px;
+        padding: 10px;
+
+        margin-left: 5px;
+        margin-right: 10px;
+    }
+    
+    .form-input {
+        margin: auto;
+        width: 80%;
+        padding: 10px;
+        margin-top: 18px;
+        border-radius: 5px;
+        border-width: 1px;
+        border-color: rgb(160, 159, 160);
+    }
+    
+    button {
+        background-color:rgb(2, 180, 108);
+        margin: auto;
+        width: 85%;
+        border-style: none;
+        color: white;
+        margin-bottom: 18px;
+        margin-top: 18px;
+        padding: 14px;
+        border-radius: 3px;
+    }
+    
+    .ts-info{
+        width: 80%;
+        margin: auto;
+        width: 85%;
+        font-size: 12px;
+        color: grey;
+    }
+    
+    #t-s {
+        color: rgb(173, 14, 14);
+    }
+  }
